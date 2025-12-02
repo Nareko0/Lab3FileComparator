@@ -1,0 +1,34 @@
+{
+  "rootPath" : "src",
+  "files" : [ {
+    "path" : "main/java/org/example/config/AppConfig.java",
+    "hash" : "76e6a60a99995645c3f26493ff7230e4"
+  }, {
+    "path" : "main/java/org/example/Main.java",
+    "hash" : "2319901870ac4e7b54a32eaa9a479f82"
+  }, {
+    "path" : "main/java/org/example/model/FileEntry.java",
+    "hash" : "eb4b9c9fabebcf6d4dfd4befde00d9e8"
+  }, {
+    "path" : "main/java/org/example/model/Snapshot.java",
+    "hash" : "795a3c05aefbdeea05a019302864545a"
+  }, {
+    "path" : "main/java/org/example/service/DiffService.java",
+    "hash" : "1865096338b6455251df633c27f70137"
+  }, {
+    "path" : "main/java/org/example/service/HashService.java",
+    "hash" : "f100258002e1f4bccb06608442866677"
+  }, {
+    "path" : "main/java/org/example/service/ScanService.java",
+    "hash" : "eed908ee20b4866278db31f1583690d4"
+  }, {
+    "path" : "main/java/org/example/util/JsonUtils.java",
+    "hash" : "809c803a82fd9c3ade042f1e3ffd0958"
+  }, {
+    "path" : "main/resources/app.properties",
+    "hash" : "7203d5778b42955026999f0a7f145f60"
+  }, {
+    "path" : "test/java/org/example/service/DiffServiceTest.java",
+    "hash" : "6089fc26970f87548e37e99e604084eb"
+  } ]
+}
