@@ -26,3 +26,10 @@
 ```properties
 hash.algorithm=MD5
 scan.ignore.patterns=*.log,*.tmp,*.bak
+### 3.Запуск 
+В командную строку сначала необходимо вставить
+$env:SCAN_PATH="D:/Work"; $env:SNAPSHOT_OUTPUT="work_snap.json"; java -jar build/libs/ваше-название.jar scan
+после чего для сравнения надо изменить какой то файл и повторить сканирование в другой файл json
+$env:SNAPSHOT_OLD=work_snap.json и $env:SNAPSHOT_NEW=work_snap1.json
+и запустить 
+java -jar build/libs/ваше-название.jar diff
